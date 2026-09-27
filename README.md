@@ -36,10 +36,17 @@ Example:
 
 "Jarvis, open YouTube"
 
+### Games Commands
+
+Jarvis can open Games through voice commands.
+Supported Games include:
+
+- Deadshot.io
+- Ping Pong game
+
 ### Music Player
 
 Jarvis includes a custom music library stored in `musicLibrary.py`.
-
 Songs can be played using voice commands.
 
 Examples:
@@ -57,14 +64,12 @@ Example:
 ### AI Powered Question Answering
 
 Jarvis can answer general questions using AI.
-
 The project currently integrates:
 
 - Groq API
 - Google Gemini API
 
 Groq is currently used as the primary AI provider.
-
 Gemini has also been integrated and tested as an additional AI provider.
 
 Example:
@@ -80,15 +85,12 @@ The AI system can maintain conversation context during an active session.
 For example:
 
 User:
-
 "My name is Nomi."
 
 Jarvis:
-
 "Nice to meet you, Nomi."
 
 User:
-
 "What is my name?"
 
 Jarvis can use the previous conversation context to answer.
@@ -126,26 +128,6 @@ For example:
 "Open YouTube"
 
 This is handled directly by Python and does not require an AI request.
-
-## Example Commands
-
-### Website Commands
-
-"Jarvis, open GitHub"
-
-### Music Commands
-
-"Jarvis, play music Skyfalls"
-
-### News Commands
-
-"Jarvis, tell me the news"
-
-### AI Commands
-
-"Jarvis, what is quantum computing?"
-
-"Jarvis, what is artificial intelligence?"
 
 ## Project Structure
 
